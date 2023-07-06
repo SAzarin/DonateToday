@@ -1,0 +1,16 @@
+.content{
+    text-align: center;
+   
+}
+.centered{
+  color: white;
+    /* position: absolute;
+    top: 20%;
+    right: 300px; */
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: -400px;
+    width: 950px;
+    margin-inline: auto;
+   
+}
