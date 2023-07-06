@@ -1,5 +1,23 @@
+/* add primary styles */
+.primary-btn{
+    color: white;
+    background-color: rgba(255, 68, 0, 0.888);
+    padding: 9px 15px;
+    border: 0px;
+    border-radius: 10px;
+}
+.primary-title{
+    font-size: 55px;
+    font-weight: 400px;
+}
+
+/* styles */
+
 .content{
     text-align: center;
+    margin-bottom: 250px;
+   
+
    
 }
 .centered{
@@ -12,12 +30,46 @@
     margin-top: -400px;
     width: 950px;
     margin-inline: auto;
+}
+
+
+/* donate today section */
+.donate-today{
+    text-align: center;
+}
+.title-donate-today p{
+    margin-top: -33px;
+}
+.containers-donate-today{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin-inline: auto;
+}
+.container-donate-today{
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 12px 20px;
+    color: gray;
+    background-color: rgba(211, 211, 211, 0.586);
+
+}
+.containers-donate-today div p {
+    font-size: 25px;
+}
+.twohundredTk{
+    border: 2px solid red;
+    background-color: lightsalmon;
+    color: red;
    
 }
-.centered button{
-    color: white;
-    background-color: rgba(255, 68, 0, 0.888);
-    padding: 9px 15px;
-    border: 0px;
-    border-radius: 10px;
+.other-amount{
+    color: gray;
+}
+.donate-today .primary-btn, hr{
+    margin-top: 8px;
+}
+.donate-today hr{
+    width: 65%;
+    text-align: center;
 }
